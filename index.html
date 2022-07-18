@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <main id="main">
+      <nav>
+        <div class="nav__links">
+          <figure class="nav__logo--wrapper">
+            <img src="./images/logo.svg" alt="" />
+          </figure>
+          <div class="nav__link" id="features__link">
+            <p class="nav__link--text">Features</p>
+            <figure>
+              <img
+                class="nav__link--down-img"
+                src="./images/icon-arrow-down.svg"
+                alt=""
+              />
+            </figure>
+          </div>
+          <div class="nav__link" id="company__link">
+            <p class="nav__link--text">Company</p>
+            <figure>
+              <img
+                class="nav__link--down-img"
+                src="./images/icon-arrow-down.svg"
+                alt=""
+              />
+            </figure>
+          </div>
+          <div class="nav__link">
+            <a class="nav__link--text">Careers</a>
+          </div>
+          <div class="nav__link">
+            <a href="#" class="nav__link--text">About</a>
+          </div>
+        </div>
+        <div class="nav__accounts">
+          <a class="nav__accounts--login" href="#">Login</a>
+          <a class="nav__accounts--register" href="#">Register</a>
+        </div>
+        <div class="features__drop-down dropdown">
+          <div class="link">
+            <figure><img src="./images/icon-todo.svg" alt="" /></figure>
+            <p>Todo List</p>
+          </div>
+          <div class="link">
+            <figure><img src="./images/icon-calendar.svg" alt="" /></figure>
+            <p>Calender</p>
+          </div>
+          <div class="link">
+            <figure><img src="./images/icon-reminders.svg" alt="" /></figure>
+            <p>Reminders</p>
+          </div>
+          <div class="link">
+            <figure><img src="./images/icon-planning.svg" alt="" /></figure>
+            <p>Planning</p>
+          </div>
+        </div>
+        <div class="company__drop-down dropdown">
+          <div class="link">
+            <p>History</p>
+          </div>
+          <div class="link">
+            <p>Dev Team</p>
+          </div>
+          <div class="link">
+            <p>Blog</p>
+          </div>
+        </div>
+        <figure id="mobile__dropdown--btn">
+          <img src="./images/icon-menu.svg" alt="" />
+        </figure>
+        <div id="mobile__dropdown">
+          <div class="mobile__close--container">
+            <figure id="mobile__dropdown--close">
+              <img src="./images/icon-close-menu.svg" alt="" />
+            </figure>
+          </div>
+          <div class="nav__links--mobile">
+            <div class="nav__link--mobile" id="features__link--mobile">
+              <p class="nav__link--text">Features</p>
+              <figure>
+                <img
+                  class="nav__link--down-img"
+                  src="./images/icon-arrow-down.svg"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div id="features__drop-down--mobile" class="dropdown--mobile">
+              <div class="link">
+                <figure><img src="./images/icon-todo.svg" alt="" /></figure>
+                <p>Todo List</p>
+              </div>
+              <div class="link">
+                <figure><img src="./images/icon-calendar.svg" alt="" /></figure>
+                <p>Calender</p>
+              </div>
+              <div class="link">
+                <figure><img src="./images/icon-reminders.svg" alt="" /></figure>
+                <p>Reminders</p>
+              </div>
+              <div class="link">
+                <figure><img src="./images/icon-planning.svg" alt="" /></figure>
+                <p>Planning</p>
+              </div>
+            </div>
+            <div class="nav__link--mobile" id="company__link--mobile">
+              <p class="nav__link--text">Company</p>
+              <figure>
+                <img
+                  class="nav__link--down-img"
+                  src="./images/icon-arrow-down.svg"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div id="company__drop-down--mobile" class=" dropdown--mobile">
+              <div class="link">
+                <p>History</p>
+              </div>
+              <div class="link">
+                <p>Dev Team</p>
+              </div>
+              <div class="link">
+                <p>Blog</p>
+              </div>
+            </div>
+
+            
+            <div class="nav__link--mobile">
+              <a class="nav__link--text">Careers</a>
+            </div>
+            <div class="nav__link--mobile">
+              <a href="#" class="nav__link--text">About</a>
+            </div>
+          </div>
+          <div class="nav__accounts--mobile">
+            <a class="nav__login--mobile" href="#">Login</a>
+            <a class="nav__register--mobile" href="#">Register</a>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="container">
+          <div class="row">
+            <figure class="header__img--wrapper-mobile">
+              <img src="./images/image-hero-mobile.png" alt="" />
+            </figure>
+            <div class="header__information">
+              <h1 class="header__information--title">
+                Make <br class="line-break" />
+                remote work
+              </h1>
+              <p class="header__information--description">
+                Get your team in sync no matter your location. Streamline
+                processes, create team rituals, and watch productivity soar.
+              </p>
+              <button class="header__information--btn">Learn more</button>
+              <div class="header__information--customers">
+                <figure class="header__customer--wrapper">
+                  <img src="./images/client-databiz.svg" alt="" />
+                </figure>
+                <figure class="header__customer--wrapper">
+                  <img src="./images/client-audiophile.svg" alt="" />
+                </figure>
+                <figure class="header__customer--wrapper">
+                  <img src="./images/client-meet.svg" alt="" />
+                </figure>
+                <figure class="header__customer--wrapper">
+                  <img src="./images/client-maker.svg" alt="" />
+                </figure>
+              </div>
+            </div>
+            <div class="header__img--container-desktop">
+              <figure class="header__img--wrapper-desktop">
+                <img src="./images/image-hero-desktop.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>
